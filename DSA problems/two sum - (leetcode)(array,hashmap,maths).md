@@ -9,13 +9,13 @@ Running it individually for digit would produce O(n^2) solution since we wouldn'
 
 # Approach
 We can alleviate above problem by keeping track of the complements using a hash table. Whenever on a new digit, check if its a complement of a previos number in hashtable, otherwise create a new entry by storing the new calculated complement with the result as the key and its index as value. 
-Lookup would have time complexity $$O(1)$$
+Lookup would have time complexity O(1)
 
 # Complexity
-- Time complexity: $$O(n)$$
+- Time complexity: O(n)
 
 
-- Space complexity: $$O(n)$$
+- Space complexity: O(n)
 
 # Code
 ```
